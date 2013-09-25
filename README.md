@@ -33,7 +33,7 @@ should be opend with `/**` and closed with `*/`.
 The other comment block delimiters are not supported.
 
 5. Comment blocks shoud start in column 3 in accordance with standard
-ADMB coding practive.
+ADMB coding practice.
 
 
 Caveats
