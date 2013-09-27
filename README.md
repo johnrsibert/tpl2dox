@@ -1,7 +1,5 @@
-<center>
 tpl2dox
 =======
-</center>
 
 A simple gawk script to interpret Doxygen comments in 
 [ADMB](http://www.admb-project.org/ "ADMB") template files.
