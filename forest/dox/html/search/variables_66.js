@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['f',['f',['../group__PARAMETER__SECTION.html#ga9e0b2bbcb2b110a8cc3ccd655de24482',1,'forest.tpl']]],
-  ['freq',['freq',['../group__DATA__SECTION.html#gaf065092a0c063780151303b611439e94',1,'forest.tpl']]]
+  ['f',['f',['../classmodel__parameters.html#a9e13110fbd55e456574b5df50c192f56',1,'model_parameters::f()'],['../group__PROCEDURE__SECTION.html#ga633de4b0c14ca52ea2432a3c8a5c4c31',1,'f():&#160;forest.tpl']]]
 ];

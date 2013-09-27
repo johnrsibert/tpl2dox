@@ -1,10 +1,10 @@
 var searchData=
 [
-  ['k',['k',['../group__PARAMETER__SECTION.html#ga95ecfe295101dbde8b4a843bce73352d',1,'pella-t.tpl']]],
-  ['k_5f1',['k_1',['../group__PARAMETER__SECTION.html#ga08038779f4b6ca42b8d1f4d10972ecc7',1,'pella-t.tpl']]],
-  ['k_5fchange',['k_change',['../group__PARAMETER__SECTION.html#ga386f8e8a983f3562b480a83202780df9',1,'pella-t.tpl']]],
-  ['k_5fdevs',['k_devs',['../group__PARAMETER__SECTION.html#ga72a0fa6b97d45517307575535f72356d',1,'pella-t.tpl']]],
-  ['k_5flast',['k_last',['../group__PARAMETER__SECTION.html#ga18d9d6fada578ecacb560b917a6ca5a9',1,'pella-t.tpl']]],
-  ['k_5fratio',['k_ratio',['../group__PARAMETER__SECTION.html#ga86a22d6c148c6ccb39085abed108fd59',1,'pella-t.tpl']]],
-  ['k_5ftrend',['k_trend',['../group__PARAMETER__SECTION.html#ga7225f00fb2d11fa5b12381426b3fd488',1,'pella-t.tpl']]]
+  ['k',['k',['../classmodel__parameters.html#a74e377e990bc18e3b03ede2b705cf61f',1,'model_parameters']]],
+  ['k_5f1',['k_1',['../classmodel__parameters.html#a8a7ad1acacd240f156befec47d6ea7f7',1,'model_parameters']]],
+  ['k_5fchange',['k_change',['../classmodel__parameters.html#a8b343c5b76471e9eec1754d39a4016f8',1,'model_parameters']]],
+  ['k_5fdevs',['k_devs',['../classmodel__parameters.html#afd8a377351a438a9dbf78652563512dc',1,'model_parameters']]],
+  ['k_5flast',['k_last',['../classmodel__parameters.html#a4204a1b297789bde57276c0858d7ef21',1,'model_parameters']]],
+  ['k_5fratio',['k_ratio',['../classmodel__parameters.html#a95eb84db9c939a6594a381ef02788d98',1,'model_parameters']]],
+  ['k_5ftrend',['k_trend',['../classmodel__parameters.html#afb6e911edbf048bcd4196f0a13dc9afe',1,'model_parameters']]]
 ];

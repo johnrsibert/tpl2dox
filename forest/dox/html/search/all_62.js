@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['beta',['beta',['../group__PARAMETER__SECTION.html#gac23cd083e3c75d8bc3f760def085efb2',1,'forest.tpl']]]
+  ['beta',['beta',['../classmodel__parameters.html#a8ec53455f35994bcf2a44d585196e522',1,'model_parameters::beta()'],['../group__PROCEDURE__SECTION.html#gab146b9cbab6e73e7588b240dc709fe01',1,'beta():&#160;forest.tpl']]]
 ];

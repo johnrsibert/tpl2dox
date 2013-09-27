@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['s',['S',['../group__PARAMETER__SECTION.html#ga26f2f1bbf28e86f8175b3c3206e4d0a1',1,'forest.tpl']]],
-  ['sigma',['sigma',['../group__PARAMETER__SECTION.html#ga5f98d04e005f467cb2c8a3682800d9e0',1,'forest.tpl']]],
-  ['sum_5ffreq',['sum_freq',['../group__DATA__SECTION.html#gaeb5c7c07a0d7a754c9bb8be7647e303f',1,'forest.tpl']]]
+  ['sigma',['sigma',['../classmodel__parameters.html#ad687fdf1829f3b43bcc7832080e9197d',1,'model_parameters::sigma()'],['../group__PROCEDURE__SECTION.html#gabc1de55a1ded540ae925d455d78d4573',1,'sigma():&#160;forest.tpl']]],
+  ['sum_5ffreq',['sum_freq',['../classmodel__data.html#a7f938310c2f4c50dfb819856fcdfad31',1,'model_data']]]
 ];

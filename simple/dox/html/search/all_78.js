@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['x',['x',['../group__DATA__SECTION.html#ga301ddc866e4b367024d062b6afff6806',1,'simple.tpl']]]
+  ['x',['x',['../classmodel__data.html#a10c55de80a66fa266aa9a2b957b6c0d9',1,'model_data']]]
 ];

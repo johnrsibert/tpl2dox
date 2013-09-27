@@ -39,9 +39,9 @@ DATA_SECTION
   vector effort(1,nobs);
   number avg_effort;
 INITIALIZATION_SECTION
-  m 2.
-  beta 1.
-  r 1.
+  m 2.;
+  beta 1.;
+  r 1.;
 PARAMETER_SECTION
   init_bounded_number r(0.,5,2);
   init_bounded_number beta(0.,5.);

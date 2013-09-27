@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['nobs',['nobs',['../group__DATA__SECTION.html#ga9184f6738bd6b6273a133c6b9497ce00',1,'pella-t.tpl']]]
+  ['nobs',['nobs',['../classmodel__data.html#ace5f1d72af1d74365a2eac4e4414d9bf',1,'model_data']]]
 ];

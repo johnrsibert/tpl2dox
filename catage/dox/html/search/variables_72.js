@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['ratio_5fn',['ratio_N',['../group__PARAMETER__SECTION.html#gad8719521e864fd8be2e154b6adad262d',1,'catage.tpl']]],
-  ['recsum',['recsum',['../group__PARAMETER__SECTION.html#gaf3f2b802ae6161be66139f4de3782118',1,'catage.tpl']]],
-  ['relwt',['relwt',['../group__DATA__SECTION.html#ga6077942de33494c119bcfbf596e19c0c',1,'catage.tpl']]]
+  ['recsum',['recsum',['../classmodel__parameters.html#ae0a3518e948034efca856e454052647f',1,'model_parameters']]],
+  ['relwt',['relwt',['../group__PROCEDURE__SECTION.html#gaada5bcc45238bacdd20a9e93f8688096',1,'catage.tpl']]]
 ];

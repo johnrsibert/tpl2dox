@@ -32,12 +32,12 @@
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 DATA_SECTION
- init_int nsteps; ///< Number of steps in numerical integrateion
- init_int k; ///<number of data points
- init_vector a(1,k+1); ///< some variable
- init_vector freq(1,k); ///< frequency of fires
- int a_index; ///< An index
- number sum_freq; ///< Sum of frequency
+ init_int nsteps; ///< Number of steps in numerical integration
+ init_int k; ///< Number of wildfire size categories
+ init_vector a(1,k+1); ///< Wildfire size categories
+ init_vector freq(1,k); ///< Number of wildfires in size category a
+ int a_index; ///< Temporary index
+ number sum_freq; ///< Total number of wildfires 
 !! sum_freq=sum(freq);
 PARAMETER_SECTION
   init_bounded_number log_tau(-14,15,2);
@@ -51,11 +51,12 @@ PARAMETER_SECTION
   vector S(1,k+1);
   objective_function_value f;
 INITIALIZATION_SECTION
-  log_tau 0  
-  beta 0.6666667 
-  log_nu 0  
-  log_sigma -2
+  log_tau 0; 
+  beta 0.6666667 ;
+  log_nu 0  ;
+  log_sigma -2;
 PROCEDURE_SECTION
+  {
   cout << endl;
   cout << "ifn = " << ifn << endl;
   cout << "quit_flag = " << quit_flag << endl;
@@ -83,18 +84,18 @@ PROCEDURE_SECTION
      f+=ff;
    }
    f+=sum_freq*log(1.e-50+S(1));
+   }
+
   /** Function for the rhomboid integration.
-  blah blah blah blah
-  blah blah blah blah blah blah blah blah
-  blah blah blah blah blah blah blah blah blah blah blah blah
-  blah blah blah blah
-  \param z integrand
-  \returns integral
+  The address of this function is passed to ADMB function adromb.
+  \param z Size of wildfire.
+  \returns Probability of observing wildfire of size z.
   */
 FUNCTION dvariable h(const dvariable& z)
   dvariable tmp;
   tmp=exp(-.5*z*z + tau*(-1.+exp(-nu*pow(a(a_index),beta)*exp(sigma*z))) );  
   return tmp;
+
 REPORT_SECTION
   report << "report:" << endl;
   report << "ifn = " << ifn << endl;

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['avg_5ff',['avg_F',['../group__PARAMETER__SECTION.html#gabe32b3c4af1be798ce880c518e384d07',1,'catage.tpl']]]
+  ['avg_5ff',['avg_F',['../classmodel__parameters.html#a86aeee86d084ab54c80bd0154d05b10e',1,'model_parameters']]]
 ];
