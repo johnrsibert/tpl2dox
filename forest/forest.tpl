@@ -35,7 +35,7 @@ DATA_SECTION
  init_int nsteps; ///< Number of steps in numerical integration
  init_int k; ///< Number of wildfire size categories
  init_vector a(1,k+1); ///< Wildfire size categories
- init_vector freq(1,k); ///< Number of wildfires in size category a
+ init_vector freq(1,k); ///< Number of wildfires in size category \ref a "a(i)"; i = 1 ... k
  int a_index; ///< Temporary index
  number sum_freq; ///< Total number of wildfires 
 !! sum_freq=sum(freq);
