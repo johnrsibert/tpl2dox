@@ -49,9 +49,9 @@ Examples
 Here are a few examples drawn from the standard suite of ADMB examples. 
 Some work well; some don't.
 
-1. [Simple](simple/dox/html/ "Simple")
+1. [Simple](simple/dox/html/index.html "Simple")
 
-2. [Catage](catage/dox/html "Catage")
+2. [Catage](catage/dox/html/index.html "Catage")
 
 3. [Forest](forest/dox/html/index.html "Forest")
 
