@@ -49,7 +49,7 @@ Examples
 Here are a few examples drawn from the standard suite of ADMB examples. 
 Some work well; some don't.
 
-1. [Simple](simple/dox/html/index.html "Simple")
+1. [Simple](simple/dox/html/index.html "SimpleX")
 
 2. [Catage](catage/dox/html/index.html "Catage")
 
