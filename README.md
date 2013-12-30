@@ -20,7 +20,7 @@ and add your ADMB template file to the `INPUT` setting, e. g.,
 
 		INPUT                  = simple.tpl
 
-2. Ensure the tpl2dox script is visible to doxygen.
+2. Ensure the tpl2dox script is in the same directory as Doxyfile so that it is visible to doxygen.
 
 3. Block comments are not supported for variables. 
 Use `///<` to open an in line Doxygen comment to document variables in the
