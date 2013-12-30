@@ -76,6 +76,9 @@ BEGIN {
 #   print "// commentBuffer: "commentBuffer
 
   sub("!!","//  !!")
+  sub("!!","  ")
+  sub("LOCAL_CALC*","  ")
+  sub("END_CALC*","  ")
   sub("  cout","  //cout")
 # sub("3darray","d3_array")
 # sub("4darray","d4_array")
