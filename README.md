@@ -15,11 +15,13 @@ Usage
 -----
 1. Include the following setting in your Doxyfile:
 
-		FILTER_PATTERNS        = *.tpl=tpl2dox
-and add your ADMB template file to the `INPUT` setting, e. g.,
+		FILTER_PATTERNS        = *.tpl=tpl2dox.sh
+for linux, or
+
+    	FILTER_PATTERNS        = *.tpl=tpl2dox.bat
+for Windoze, and add your ADMB template file to the `INPUT` setting, e. g.,
 
 		INPUT                  = simple.tpl
-
 2. Ensure the tpl2dox script is in the same directory as Doxyfile so that it is visible to doxygen.
 
 3. Block comments are not supported for variables. 
