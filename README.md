@@ -41,7 +41,7 @@ Caveats
 
 1. `tpl2dox` does not work correctly in all cases. Occasionally functions appear
 in places where variables should appear. 
-The comment blocks for certaion FUNCTIONs do not appear.
+The comment blocks for certain FUNCTIONs do not appear.
 
 2. Run `tpl2cpp` to make sure your comments blocks have not buggered up 
 the `.tpl` file format.
